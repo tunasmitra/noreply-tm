@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <header class="navbar fixed-top bg-body-tertiary navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">TUNAS MITRA</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-company">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="container-fluid py-5 px-5 text-center" id="banner">
+                <h1 class="m-5">Welcome Tunas Mitra Website!</h1>
+                <img src="https://tunasmitra.co.id/storage/assets/home/about.png" class="m-5" alt="" srcset="" />
+            </section>
+
+            <section class="container-fluid py-5 px-5 text-center" id="about-company">
+                <h3>About Us</h3>
+                <p>
+                    Tunas Mitra is a packaging supplier company that was established in 1999 under the name TM Supply.
+                    As time goes by, we continue to grow and have expanded into a company that has branches in several
+                    major cities in Indonesia.
+                </p>
+                <p>
+                    We provide various packaging needs such as OPP Tape, Stretch Film, Strapping Band, Packaging
+                    Machine, and various other supporting packaging materials.
+                </p>
+            </section>
+
+            <section class="container-fluid py-5 px-5 text-center" id="products">
+                <h3 class="m-3">Our Products</h3>
+                <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img
+                                src="https://tunasmitra.co.id/storage/assets/product-gallery/lakban-TM-tape.jpg"
+                                class="card-img-top w-25"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">OPP Tape</h5>
+                                <p class="card-text">
+                                    Lakban or OPP Tape is a combination of BOPP film coated with acrylic water-based
+                                    adhesive for various applications. Tura Tape offers the best quality adhesive and
+                                    provides instant bonding to products, making it suitable for light, medium, and
+                                    heavy-duty packaging. It has been widely used in various industrial sectors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img
+                                src="https://tunasmitra.co.id/storage/assets/product-gallery/plastik-wrapping.jpg"
+                                class="card-img-top w-25"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Stretch Film</h5>
+                                <p class="card-text">
+                                    Stretch Film is made from Linear Low-Density Polyethylene (LLDPE), a highly elastic
+                                    plastic material that tightly wraps around products. Generally, plastic wrapping is
+                                    used to wrap products on pallets to protect them from dust, water, and other
+                                    contaminants. The use of plastic wrapping helps reduce the risk of product damage
+                                    and unwanted workplace accidents.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img
+                                src="https://tunasmitra.co.id/storage/assets/product-gallery/pp-strapping-band.jpg"
+                                class="card-img-top w-25"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Strapping Band</h5>
+                                <p class="card-text">
+                                    PP (PolyPropylene) strapping bands are commonly used to tie cardboard boxes and
+                                    pallets to maintain product stability during storage and transportation. Almost all
+                                    business fields use PP strapping bands, both national and multi-national companies
+                                    that use strapping bands to export their products.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img
+                                src="https://tunasmitra.co.id/storage/assets/product-gallery/BEE-STRETCH-WRAPPER.jpg"
+                                class="card-img-top w-25"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Stretch Film Machine</h5>
+                                <p class="card-text">
+                                    The One Wrap Stretch Wrapping Machine is the perfect, fast, and optimal solution for
+                                    the most commonly used pallet wrapping needs in companies. With modern technology,
+                                    this machine has the main function of wrapping cardboard boxes with stretch film to
+                                    protect them from dust, water, and dirt during storage and shipping.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center py-3">
+            <p>&copy; 2024 Tunas Mitra</p>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
